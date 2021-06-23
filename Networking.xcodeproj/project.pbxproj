@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3890C35526834F420070BE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890C35426834F420070BE1B /* AppDelegate.swift */; };
 		3890C35726834F420070BE1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890C35626834F420070BE1B /* SceneDelegate.swift */; };
-		3890C35926834F420070BE1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890C35826834F420070BE1B /* ViewController.swift */; };
+		3890C35926834F420070BE1B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890C35826834F420070BE1B /* ImageViewController.swift */; };
 		3890C35C26834F420070BE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3890C35A26834F420070BE1B /* Main.storyboard */; };
 		3890C35E26834F470070BE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3890C35D26834F470070BE1B /* Assets.xcassets */; };
 		3890C36126834F470070BE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3890C35F26834F470070BE1B /* LaunchScreen.storyboard */; };
+		3890C36B268370730070BE1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890C36A268370730070BE1B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3890C35126834F420070BE1B /* Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3890C35426834F420070BE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3890C35626834F420070BE1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3890C35826834F420070BE1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3890C35826834F420070BE1B /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		3890C35B26834F420070BE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3890C35D26834F470070BE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3890C36026834F470070BE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3890C36226834F470070BE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3890C36A268370730070BE1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				3890C35426834F420070BE1B /* AppDelegate.swift */,
 				3890C35626834F420070BE1B /* SceneDelegate.swift */,
-				3890C35826834F420070BE1B /* ViewController.swift */,
+				3890C35826834F420070BE1B /* ImageViewController.swift */,
 				3890C35A26834F420070BE1B /* Main.storyboard */,
+				3890C36A268370730070BE1B /* ViewController.swift */,
 				3890C35D26834F470070BE1B /* Assets.xcassets */,
 				3890C35F26834F470070BE1B /* LaunchScreen.storyboard */,
 				3890C36226834F470070BE1B /* Info.plist */,
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3890C35926834F420070BE1B /* ViewController.swift in Sources */,
+				3890C35926834F420070BE1B /* ImageViewController.swift in Sources */,
 				3890C35526834F420070BE1B /* AppDelegate.swift in Sources */,
+				3890C36B268370730070BE1B /* ViewController.swift in Sources */,
 				3890C35726834F420070BE1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
